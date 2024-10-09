@@ -121,7 +121,6 @@
   padding-left: 0;
   list-style-type: none;
 }
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 
 .card {
   background-color: #fff;
@@ -315,15 +314,12 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  /* Agrega estilos */
 }
 
 .step {
   flex-basis: 220px;
   margin: 40px;
   margin-top: 0%;
-
-  /* Agrega estilos */
 }
 
 .step__title {
@@ -354,8 +350,8 @@
 
 .footer__columns {
   display: flex;
-  padding: 0;
   margin: 60px 80px;
+  margin-bottom: 0;
 }
 
 .footer__column_content_hours {
@@ -375,10 +371,11 @@
   align-self: flex-start;
   height: 80px;
   width: 58px;
+  margin-bottom: 100px;
 }
 
 .footer__column-heading {
-  color: #fff;
+  margin: 0 0 20px 0;
 }
 
 .footer__list {
@@ -388,7 +385,7 @@
 }
 
 .footer__list-item {
-  margin-bottom: 8px;
+  margin: 0 0 16px 0;
 }
 
 .footer__column-link {
@@ -403,7 +400,5 @@
 }
 
 .footer__copyright {
-  align-self: flex-start;
-  padding: 0;
-  margin-top: 100px;
+  margin: 0 80px 60px;
 }
